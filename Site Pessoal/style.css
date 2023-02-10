@@ -1,0 +1,136 @@
+html { 
+    background: linear-gradient(red,green);
+}
+
+header {
+    background: linear-gradient(white, red);
+    padding: 20px 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    
+
+}
+
+nav li {
+    display:inline;
+    margin:0 0 0 15px;
+   
+}
+
+nav a { 
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover, main h1:hover {
+    color: #C78C19;
+    text-decoration:underline;
+}
+
+
+
+.imagem-home { 
+    display: block;
+    width: 1000px;
+    height: 600px;
+    margin: 60px auto;
+    position: relative;
+}
+
+main p { 
+    text-align: center;
+    margin: 50px auto;
+    color: #FC0FC0;
+    font-weight: bold;
+}
+
+.titulo-principal, main h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.ga,.gincana, .grupinho, .vida{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.principal p { 
+    color: white; 
+    text-align: center;
+    font-weight: bold;
+    font-style:italic;
+    padding: 10px;
+}
+
+.pergunta {
+    padding: 3em 0; 
+}
+.pergunta p{ 
+    color: white; 
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+
+.respostas { 
+    width: 1200px;
+    margin: 15px 0px 100px 100px;
+    
+}
+
+.lista-itens { 
+    width: 45%;
+    display: inline-block;
+    margin: 0 0 100px 0;
+    
+}
+.itens {
+    
+    line-height: 2.5;   
+    font-size: 30px;
+}
+
+.itens:before {
+    content:"★"
+}
+
+.respostas img{   
+    float: right; 
+    width: 650px; 
+    height: 400px;
+    margin: 0 0 10px 0;
+      
+}
+
+
+
+
+
